@@ -9,6 +9,7 @@ namespace SLVP_Week5_Shapes
     internal class Triangle : Shape
     {
 
+        // Using the base constructor
         public Triangle(int width, int height) : base(width, height)
         {
 
