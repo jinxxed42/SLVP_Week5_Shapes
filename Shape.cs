@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SLVP_Week5_Shapes
+﻿namespace SLVP_Week5_Shapes
 {
     // Making it abstract since we won't instantiate this class, but only it's subclasses.
     internal abstract class Shape

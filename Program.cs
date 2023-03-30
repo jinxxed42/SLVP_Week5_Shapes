@@ -3,11 +3,11 @@
 int height = 40;
 int width = 60;
 
-Rectangle rec = new Rectangle(width, height);
-int recArea = rec.CalcArea();
+Rectangle rectangle = new Rectangle(width, height);
+int recArea = rectangle.CalcArea();
 
-Triangle tri = new Triangle(width, height);
-double triArea = tri.CalcArea();
+Triangle triangle = new Triangle(width, height);
+double triArea = triangle.CalcArea();
 
 Console.WriteLine("Input is height: " + height + " and width: " + width + ".");
 Console.WriteLine("Area of rectangle is: " + recArea + ".");
